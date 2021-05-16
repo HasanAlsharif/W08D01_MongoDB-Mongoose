@@ -18,7 +18,7 @@ from code copy the repo url
 
       make new file.js (server.js)
       in pakage jason --> 
-
+3- npm i mongoose
 3-  in pakage.json
     
     "dev" : "nodemon server.js",

@@ -3,12 +3,18 @@ const fs = require("fs");
 const axios = require("axios");
 const morgan = require("morgan");
 
+// DB======================
+const todoModel = require("./schema");
+const db = require("./db");
+
+//========================
+
+
 const app = express();
 const port = 3000;
 
 /* ================================= */
 
-// a middleware that enables us to read the received JSON data
 app.use(express.json());
 
 /* ================================= */
@@ -24,6 +30,13 @@ app.get('/', (req, res) => {
 
 
 
+app.get("/todos", (req, res) => {});
+app.post("/create/todo", (req, res) => {});
+app.put("/update/todo", (req, res) => {});
+app.delete("/delete/todo", (req, res) => {});
+
+
+// DONE , no problems
 
 
 // ====================PRACTICE============================== 
