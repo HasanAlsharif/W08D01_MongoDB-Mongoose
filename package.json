@@ -1,0 +1,27 @@
+{
+  "name": "W08D01_MongoDB-Mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "notes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasanAlsharif/W08D01_MongoDB-Mongoose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasanAlsharif/W08D01_MongoDB-Mongoose/issues"
+  },
+  "homepage": "https://github.com/HasanAlsharif/W08D01_MongoDB-Mongoose#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
